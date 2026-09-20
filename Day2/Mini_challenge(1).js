@@ -1,4 +1,4 @@
-let str = "aaaa"
+let str = "Zakaria"
 function pourcentage (str) {
     let count = 0
     for (let i = 0 ; i <= str.length -1 ; i++ ) {
@@ -7,7 +7,7 @@ function pourcentage (str) {
     count = count + 1 }
     
  } 
-console.log((count * 100) / str.length + " %")
+return (count * 100) / str.length + " %"
 
 }
 
